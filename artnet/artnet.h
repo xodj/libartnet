@@ -28,7 +28,7 @@
 #if !defined(WIN32) && !defined(_MSC_VER)
 #include <sys/select.h>
 #else
-#include <winsock2.h>
+//#include <winsock2.h>
 typedef unsigned long in_addr_t;
 #endif
 
